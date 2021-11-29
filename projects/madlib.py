@@ -24,6 +24,10 @@ verb1 = input("Please say a verb: ")
 adverb = input("Please say an adverb: ")
 number4 = input("Please say a number: ")
 
+time.Sleep(1)
+print("Getting the madlibs ready")
+time.Sleep(2)
+
 # Readability, whats that?
 # Prints out the story with all the variables.
 print(f"On July {number1} 1969, two American \n {plural_noun} were the first to {verb} on \n the moon. This {adjective} trip took \n {number2} days to reach the moon from \n {place}. As {first_name} Armstrong \n and {first_name2} Aldrin {verb_ed} \n onto the {noun} of the moon, Armstrong \n {verb_ed1} the famous words, \" That's {number3} \n {adjective2} step for man, one {adjective3} leap for mankind\". Soon after, Aldrin {verb_ed2} onto  \n the moon and together they {verb_ed3} a \n U.S {noun1} on the surface. They {verb_ed4} \n {plural_noun1} from the moon's surface to {verb1} \n back to Earth and {adverb} returned home \n {number4} days later.")
